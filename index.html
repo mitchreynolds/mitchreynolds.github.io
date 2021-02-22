@@ -347,7 +347,7 @@ To help you prepare for the draft, you figure you should hire an agent.
     &lt;&lt;say &#39;agent&#39; &#39;../assets/agent.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;Great, I&#39;ll let the $teamchoice know you&#39;re ready to come meet with them. The interview will let you make a good first impression while they judge you as a prospect.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;&lt;br&gt;
 &lt;&lt;/nobr&gt;&gt;
 
-&lt;&lt;timed 8s t8n&gt;&gt;[[Head to Interview]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="play" tags="" position="1100,350" size="100,100">&lt;span id=&quot;money&quot;&gt;Money: $money&lt;/span&gt;
+&lt;&lt;timed 8s t8n&gt;&gt;[[Head to Interview|Interview]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="play" tags="" position="1100,350" size="100,100">&lt;span id=&quot;money&quot;&gt;Money: $money&lt;/span&gt;
 
 Your coach smiles as you tell him you&#39;re not going to sit out.
 
@@ -369,9 +369,11 @@ The first half of game 2 looks much like the previous game with you scoring at w
 
 &lt;&lt;next 5s&gt;&gt;The doctors have an infuriating &quot;I told you so&quot; look on their faces as they tell you the severity of the injury.
 
-&lt;&lt;next 3s&gt;&gt;&lt;&lt;say &#39;doctor&#39; &#39;../assets/doctor.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;Unfortunately, exactly what we expected to happened just happened. With all this damage to your knee, its pretty certain that you can never play basketball again. We&#39;re terribly sorry, $name, but it looks like your NBA career is over.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;
+&lt;&lt;next 3s&gt;&gt;&lt;&lt;say &#39;doctor&#39; &#39;../assets/doctor.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;Unfortunately, exactly what we expected to happen just happened. With all this damage to your knee, its pretty certain that you can never play basketball again. We&#39;re terribly sorry, $name, but it looks like your NBA career is over.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;
 
 &lt;&lt;next 10s&gt;&gt;The injury completely demoralizes your team, who proceed to lose the next 4 games and get eliminated.
+
+&lt;&lt;next 4s&gt;&gt;&lt;h2&gt;You Lose&lt;/h2&gt;
 &lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="31" name="roids" tags="" position="100,475" size="100,100">&lt;span id=&quot;money&quot;&gt;Money: $money&lt;/span&gt;
 
 &lt;&lt;timed 1s t8n&gt;&gt;As expected, your physical gains have been through the roof. Your rapid rise has grabbed the attention of everyone throughout the league.
@@ -379,16 +381,16 @@ The first half of game 2 looks much like the previous game with you scoring at w
 &lt;&lt;next 2s&gt;&gt;Although most are impressed by your improvement, it has made many people suspicious, particularly Nate, your rival on the team.
 
 &lt;&lt;next 3s&gt;&gt;&lt;&lt;say &#39;nate&#39; &#39;../assets/nate.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;Wow, $name, you&#39;ve certainly been making some gains. Find a new training regiment or something?&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;
-&lt;&lt;next 4s&gt;&gt;&lt;&lt;linkreplace &quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Yeah, this new trainer is really helping me&quot;&gt;&gt;&lt;br&gt;
-    &lt;&lt;say &#39;nate&#39; &#39;../assets/nate.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;So you&#39;re telling me this is all natural?&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;&lt;br&gt;&lt;&lt;timed 3s t8n&gt;&gt;&lt;&lt;linkappend &quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Of course it is, why do you ask?&quot;&gt;&gt;&lt;br&gt;&lt;br&gt;&lt;&lt;say &#39;nate&#39; &#39;../assets/nate.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;C&#39;mon, $name, I&#39;m not that dumb. I&#39;ll tell you what, though. If you can hook me up with whatever you&#39;ve been taking, the league doesn&#39;t have to know.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;&lt;br&gt;
+&lt;&lt;next 4s&gt;&gt;&lt;&lt;linkappend &quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Yeah, this new trainer is really helping me//&quot;&gt;&gt;&lt;br&gt;
+    &lt;&lt;say &#39;nate&#39; &#39;../assets/nate.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;So you&#39;re telling me this is all natural?&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;&lt;br&gt;&lt;&lt;timed 3s t8n&gt;&gt;&lt;&lt;linkappend &quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Of course it is, why do you ask?//&quot;&gt;&gt;&lt;br&gt;&lt;br&gt;&lt;&lt;say &#39;nate&#39; &#39;../assets/nate.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;C&#39;mon, $name, I&#39;m not that dumb. I&#39;ll tell you what, though. If you can hook me up with whatever you&#39;ve been taking, the league doesn&#39;t have to know.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;&lt;br&gt;
     &lt;&lt;timed 7s t8n&gt;&gt;[[Give Nate Steroids|give]]&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[[Keep Denying|deny]]&lt;&lt;/timed&gt;&gt;&lt;&lt;/linkappend&gt;&gt;&lt;&lt;/timed&gt;&gt;
-&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;/linkappend&gt;&gt;
 &lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="32" name="deny" tags="" position="225,475" size="100,100">&lt;span id=&quot;money&quot;&gt;Money: $money&lt;/span&gt;
 
 &lt;&lt;say &#39;nate&#39; &#39;../assets/nate.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;Oh, so it&#39;s like that? I guess we&#39;ll just have to see what the league thinks.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;
 
 &lt;&lt;timed 4s t8n&gt;&gt;You get another call from your agent&lt;br&gt;
-&lt;&lt;next 1s&gt;&gt;&lt;&lt;linkappend &quot;Answer Phone&quot;&gt;&gt;&lt;br&gt;&lt;&lt;say &#39;agent&#39; &#39;../assets/agent.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;Are you serious? I give you access to illegal steroids and you get caught before the season even starts? The league office just called me, you&#39;ve been kicked out of the NBA.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;&lt;&lt;/linkappend&gt;&gt;
+&lt;&lt;next 1s&gt;&gt;&lt;&lt;linkreplace &quot;Answer Phone&quot;&gt;&gt;&lt;br&gt;&lt;&lt;say &#39;agent&#39; &#39;../assets/agent.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;Are you serious? I give you access to illegal steroids and you get caught before the season even starts? The league office just called me, you&#39;ve been kicked out of the NBA.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;
 
 &lt;&lt;next 12s&gt;&gt;&lt;h2&gt;You Lose&lt;/h2&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="33" name="give" tags="" position="350,475" size="100,100">&lt;span id=&quot;money&quot;&gt;Money: $money&lt;/span&gt;
 
@@ -480,7 +482,7 @@ It is the 2nd round of the playoffs, and you can barely wait to get some playoff
 
 As expected, you decide to suit up for the full game.
 
-&lt;&lt;timed 2s t8n&gt;&gt;&lt;&lt;say &#39;coach&#39; &#39;../assets/coach.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;That what I like to hear, $name. Now go tell your teammates and get ready for the game.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;
+&lt;&lt;timed 2s t8n&gt;&gt;&lt;&lt;say &#39;coach&#39; &#39;../assets/coach.png&#39;&gt;&gt;&lt;&lt;type 40ms&gt;&gt;&quot;That&#39;s what I like to hear, $name. Now go tell your teammates and get ready for the game.&quot;&lt;&lt;/type&gt;&gt;&lt;&lt;/say&gt;&gt;
 
 &lt;&lt;next 5s&gt;&gt;This proves to be a good decision as you proceed to score 35 points in your playoff debut, leading the $teamchoice to a round 2 victory.
 
@@ -549,7 +551,7 @@ After months of exhausting workouts, you take it easy and get some rest in prepa
     &lt;&lt;/linkreplace&gt;&gt;
 &lt;&lt;next 10s&gt;&gt;[[Begin the Season|next5]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="next5" tags="" position="225,725" size="100,100">&lt;span id=&quot;money&quot;&gt;Money: $money&lt;/span&gt;
 
-&lt;&lt;timed 1s t8n&gt;&gt;6 months later
+&lt;&lt;timed 1s t8n&gt;&gt;//6 months later//
 
 &lt;&lt;next 2s&gt;&gt;With the playoffs just a couple weeks away, the $teamchoice have secured a playoff spot thanks to your all-star level play.
 
